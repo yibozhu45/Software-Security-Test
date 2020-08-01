@@ -12,3 +12,10 @@ For this quiz you must complete the following:
 4. Fix the two errors causing the program to not run correctly
 
 5. Execute the program using the "easy.txt" file as input
+
+#Reference
+http://clang-analyzer.llvm.org/
+
+http://cppcheck.sourceforge.net/
+
+http://cppcheck.sourceforge.net/manual.pdf
