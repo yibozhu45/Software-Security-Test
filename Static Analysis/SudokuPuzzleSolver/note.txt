@@ -1,0 +1,3 @@
+When run a program with xx.h , xx.cpp , main.cpp
+
+g++ main.cpp xx.cpp 

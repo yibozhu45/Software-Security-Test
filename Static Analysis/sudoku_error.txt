@@ -1,0 +1,11 @@
+[Puzzle.cpp:217] -> [Puzzle.cpp:218]: (warning) Either the condition 'i==0' is redundant or there is division by zero at line 218.
+[Puzzle.cpp:233]: (error) Division by zero.
+[Puzzle.cpp:202]: (style) Unused variable: k
+[Puzzle.h:20]: (style) Class 'Puzzle' has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided.
+[Puzzle.cpp:233]: (error) Uninitialized variable: k
+[main.cpp:16] -> [main.cpp:16]: (style) Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct.
+[main.cpp:16]: (style) Variable 'j' is assigned a value that is never used.
+[main.cpp:16]: (error) Uninitialized variable: i
+[main.cpp:30]: (error) Uninitialized variable: i
+[Puzzle.cpp:230]: (style) The function 'print3' is never used.
+(information) Cppcheck cannot find all the include files. Cppcheck can check the code without the include files found. But the results will probably be more accurate if all the include files are found. Please check your project's include directories and add all of them as include directories for Cppcheck. To see what files Cppcheck cannot find use --check-config.

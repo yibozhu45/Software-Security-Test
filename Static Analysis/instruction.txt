@@ -1,0 +1,14 @@
+For this quiz you must complete the following:
+
+1. Download and install/configure both Cppcheck and the Clang Static Analyzer (you may use the pre-built package if possible)
+
+2. Using Cppcheck: perform a recursive check on the files in the "SudokuPuzzleSolver" directory, include the following options:
+	(1) Enable all checks
+	(2) Verbose output to terminal
+	(3) Error output to a file sudoku_error.txt
+
+3. Using Clang Static Analyzer: run scan-build with the Makefile to compile all relevant files in the "SudokuPuzzleSolver" directory
+
+4. Fix the two errors causing the program to not run correctly
+
+5. Execute the program using the "easy.txt" file as input
